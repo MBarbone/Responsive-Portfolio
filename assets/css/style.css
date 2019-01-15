@@ -1,20 +1,87 @@
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 3px solid #DDDDDD;
+  }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-left: 175px;
+    color: white;
+    margin: 0 0 0 175px;
+    padding: 25px 15px;
+}
+  
+.top-nav {
+    position: absolute;
+    top: 31px;
+    right: 175px;
+  }
+  
+.nav-link {
+    font-size: 20px;
+    padding: 0 6px;
+  }
+  
+.name {
+    display: inline-block;
+    font-weight: 800;
+}
 
+.content {
+   max-width: 100%;
+   background: lightgrey;
+}
 
+.about-me-title {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 3px solid #DDDDDD;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-.footer {
+.about-me-body {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
     text-align: center;
+}
+
+#me-pic {
+    width: 180px;
+    float: left;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-image: url(assets/images/gravel.png); 
+  }
+
+  .footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    padding-top: 20px;
+  }
+
+.contact-logos {
+    padding-bottom: 20px;
 }
 
 #github {
