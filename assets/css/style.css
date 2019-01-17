@@ -19,13 +19,24 @@ h1 {
   
 .top-nav {
     position: absolute;
-    top: 31px;
+    top: 36px;
     right: 175px;
   }
+
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+
   
 .nav-link {
     font-size: 20px;
     padding: 0 6px;
+    color: #666666;
   }
   
 .name {
@@ -45,27 +56,28 @@ h1 {
 }
 
 
-.about-me-title {
+.content-title {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     border-bottom: 3px solid #DDDDDD;
-    padding: 15px 0 0 39px;
+    padding: 20px 0 0 13px;
     margin-bottom: 15px;
+    text-align: left;
 }
 
-.about-me-body {
+.content-body {
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #666666;
     width: 960px;
     background-color: white;
     display: inline-block;
-    text-align: left;
     padding: 0 10px;
     line-height: 100%;
 }
 
-.about-me-body p {
-    padding: 0 12px 12px 12px;
+.content-body p {
+    padding: 8px 12px 12px 12px;
+    text-align: left;
 }
 
 #me-pic {
@@ -74,13 +86,7 @@ h1 {
     padding: 10px;
 }
 
-
-
-html {
-    height: 100%;
-  }
-
-  body {
+body {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -88,8 +94,10 @@ html {
   }
 
   .footer {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     border-top: 8px solid #4aaaa5;
     background-color:#666666;
@@ -98,8 +106,55 @@ html {
 
 .contact-logos {
     padding-bottom: 20px;
+
+}
+
+.contact-logos a {
+    text-decoration: none;
+}
+
+.contact-logos img:hover {
+    transform: scale(2);
 }
 
 #github {
     margin: 0px 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    padding: 15px;
+    margin-left: -13px;
+ 
+  }
+
+input[type="email"],
+input[type="text"],
+button[type="submit"], textarea {
+  display: block;
+  height: auto;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 98%;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    width: auto;
+    font-size: 16pt;
+}
+
+button[type="submit"]:hover {
+    background-color: #286966;
+    cursor: pointer;
 }
