@@ -35,7 +35,7 @@ h1 {
   
 .nav-link {
     font-size: 20px;
-    padding: 0 6px;
+    padding: 0 10px;
     color: #666666;
   }
   
@@ -155,6 +155,59 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
+    background-color: #286966;
+    cursor: pointer;
+}
+
+.portfolio-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 15px 25px 15px;
+}
+
+.portfolio-boxes-top-row {
+    display: inline-block;
+}
+
+.portfolio-boxes-bottom-row {
+    display: inline-block;
+}
+
+#box-one {
+    background-image: url("../images/Surf.JPG");
+    background-size: cover;
+}
+
+#box-two {
+    background-image: url("../images/Rutgers-App.jpg");
+    background-size: cover;
+}
+
+#box-three {
+    background-image: url("../images/Train.jpg");
+    background-size: cover;
+}
+
+#box-four {
+    background-image: url("../images/headphones.jpg");
+    background-size: cover;
+}
+
+.portfolio-box-title {
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    z-index: 2;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 155px;
+    line-height: 35px;
+}
+
+.portfolio-box-title:hover {
     background-color: #286966;
     cursor: pointer;
 }
