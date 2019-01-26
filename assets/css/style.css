@@ -43,10 +43,9 @@ h1 {
 }
 
 .content {
-   height: 100%;
    width: 100%;
    text-align: center;
-   margin-top: 250px;
+   padding-top: 150px;
 }
 
 .content-background-gravel {
@@ -210,8 +209,112 @@ button[type="submit"]:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 1175px) {
     .content-body {
-        margin: 0px 15px;
+        width: 80%;
     }
- }
+
+    h1 {
+    position: absolute;
+    left: 23px;
+    top: 0px;
+    margin-left: 0px;
+    }
+
+    .top-nav {
+        position: absolute;
+        top: 36px;
+        right: 23px;
+      }
+
+    .nav-bar {
+        height: 86px;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    h1 {
+    position: absolute;
+    left: 23px;
+    top: 0px;
+    margin-left: 0px;
+    }
+
+    .top-nav {
+        position: absolute;
+        top: 36px;
+        right: 23px;
+      }
+
+    .nav-bar {
+        height: 86px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    h1 {
+        left: 0px;
+        right: 0px;
+        text-align: center;
+    }
+
+    .top-nav {
+        background-color: white;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 591px) {
+    .content-body {
+        margin-bottom: 95px;
+    }
+
+    .portfolio-box-title {
+        z-index: auto;
+    }
+
+    .nav-bar {
+        position: static;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .content {
+        padding-top: 50px;
+    }
+
+    .footer {
+        position: static;
+        margin-top: 25px;
+        width:auto;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .image-container {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #me-pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
