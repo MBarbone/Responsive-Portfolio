@@ -234,6 +234,20 @@ button[type="submit"]:hover {
 }
 
 
+@media screen and (max-height: 980px) {
+    .content-body {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .content-body {
+        margin-bottom: 250px;
+    }
+}
+
+
+
 @media screen and (max-width: 980px) {
     h1 {
     position: absolute;
@@ -255,12 +269,7 @@ button[type="submit"]:hover {
 
 
 @media screen and (max-width: 640px) {
-    .nav-bar {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    h1 {
+  h1 {
         left: 0px;
         right: 0px;
         text-align: center;
