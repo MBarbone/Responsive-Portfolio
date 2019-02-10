@@ -87,7 +87,7 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
-    background-image: url(http://www.1designshop.com/wp-content/uploads/2015/12/1dsp-20151221-pattern006.png); 
+    background-image: url("../images/background.jpg");
   }
 
   .footer {
@@ -177,7 +177,7 @@ button[type="submit"]:hover {
 }
 
 #box-two {
-    background-image: url("../images/crystal-collector-snap.png");
+    background-image: url("../images/crystal-collector.png");
     background-size: cover;
 }
 
@@ -202,6 +202,12 @@ button[type="submit"]:hover {
     position: relative;
     top: 155px;
     line-height: 35px;
+}
+
+.portfolio-box-links {
+    text-decoration: none;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
 }
 
 .portfolio-box-title:hover {
