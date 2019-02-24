@@ -187,8 +187,9 @@ button[type="submit"]:hover {
 }
 
 #box-four {
-    background-image: url("../images/headphones.jpg");
+    background-image: url("../images/leopard.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .portfolio-box-title {
